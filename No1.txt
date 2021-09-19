@@ -1,0 +1,10 @@
+STORE "suhu" with any value
+
+IF "suhu" = "fahrenheit"
+	DO "celcius" <- ("fahrenheit"-32) * (5/9)
+ELSE IF "suhu" = "kelvin"
+	DO "celcius" <- ("kelvin"-273.15)
+ELSE "suhu" = "celcius"
+	DO "celcius" = "celcius"
+PRINT "celcius"  
+

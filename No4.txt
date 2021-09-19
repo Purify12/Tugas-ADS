@@ -1,0 +1,11 @@
+STORE "grade" with value 0-100
+PRINT "Nilai Awal" = "grade"
+
+WHILE "grade" >= 68
+	CALCULATE "grade" mod 5
+	STORE "result" to the result of calculation
+	IF "result" >= 3
+		PRINT "Nilai akhir" = "grade" + (5-result)
+	ELSE 
+		PRINT "Nilai akhir" = "grade"
+	

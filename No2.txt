@@ -1,0 +1,20 @@
+SET "number" with value 1 to n
+
+WHILE "number" > 1
+	DISPLAY "number"
+	CALCULATE "number" mod 3 
+	STORE "result" as the result of the calculation
+	CALCULATE "number" mod 5
+	STORE "integer" as the result of the calculation
+    IF "result" equals to 0 
+	PRINT "Fizz"
+    ELSE IF "integer" equals to 0
+	PRINT "Buzz"
+    ELSE IF "number" and "integer" equals to 0
+	PRINT "FizzBuzz"
+    ELSE
+	PRINT "x" with x is every number it self
+PRINT "1-number"
+
+
+

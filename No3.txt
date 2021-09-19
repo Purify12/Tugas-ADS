@@ -1,0 +1,8 @@
+STORE "text" with value string
+
+WHILE "text" not an empty line
+	PRINT "text"
+   IF "text" == "isPalindrome" to prove string is a palindrome
+	PRINT "TRUE"
+   ELSE 
+	PRINT "FALSE"
